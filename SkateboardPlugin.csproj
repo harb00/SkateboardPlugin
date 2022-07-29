@@ -8,8 +8,9 @@
 
 	<ItemGroup>
 		<Reference Include="Plus Emulator">
-			<HintPath>bin\Debug\net6.0\Plus Emulator.dll</HintPath>
+			<HintPath>$(PLUS_EMULATOR_HOME)\Plus Emulator.dll</HintPath>
 			<Private>false</Private>
+			<ExcludeAssets>all</ExcludeAssets>
 		</Reference>
 	</ItemGroup>
 </Project>
