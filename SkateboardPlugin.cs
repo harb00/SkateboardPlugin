@@ -23,7 +23,7 @@ public class SkateboardPlugin : IPlugin
 }
 
 
-public class SkateboardModule : IChatCommand
+public class SkateboardCommand : IChatCommand
 {
     public string Key => "skateboard";
 
